@@ -1,3 +1,7 @@
 node_modules
 dist
+<<<<<<< HEAD
 .env
+=======
+.env
+>>>>>>> 1ded6a8 (Remove node_modules)

@@ -26,34 +26,26 @@ function StudyAbroad() {
   return (
     <PageLayout>
       {/* Hero */}
-      <section
-        className="relative py-32 text-white text-center px-4 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            'url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=80")',
-        }}
-      >
-        <div className="absolute inset-0 bg-brand-navy/80" />
-        <motion.div
-          className="relative z-10"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-        >
-          <p className="text-brand-gold font-semibold uppercase tracking-widest text-sm mb-4">Study in Germany</p>
-          <h1 className="text-5xl sm:text-6xl font-display font-bold">Study Abroad in Germany</h1>
-          <p className="mt-5 text-gray-200 text-lg max-w-2xl mx-auto">
-            Europe's strongest economy. Tuition-free universities. World-class research. Your future starts here.
-          </p>
-          <Link
-            to="/contact"
-            className="mt-8 inline-block bg-brand-gold text-brand-navy font-bold px-10 py-4 rounded-lg
-                       hover:bg-brand-gold-light transition-colors"
+        <section className="bg-brand-navy py-24 text-white text-center px-4" >
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
           >
-            Book Free Counseling
-          </Link>
-        </motion.div>
-      </section>
+            <p className="text-brand-gold font-semibold uppercase tracking-widest text-sm mb-4">Study in Germany</p>
+            <h1 className="text-5xl sm:text-6xl font-display font-bold">Study Abroad in Germany</h1>
+            <p className="mt-5 text-gray-200 text-lg max-w-2xl mx-auto">
+              Europe's strongest economy. Tuition-free universities. World-class research. Your future starts here.
+            </p>
+            <Link
+              to="/contact"
+              className="mt-8 inline-block bg-brand-gold text-brand-navy font-bold px-10 py-4 rounded-lg
+                        hover:bg-brand-gold-light transition-colors"
+            >
+              Book Free Counseling
+            </Link>
+          </motion.div>
+        </section>
 
       {/* Why Germany */}
       <section className="section-padding bg-white">

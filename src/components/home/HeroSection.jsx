@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import heroLogo from '../../assets/DGM2.png'
+import heroLogo from '../../assets/hero-logo.png'
 
 const trustBadges = ['Expert Guidance', 'Proven Success', 'Global Opportunities']
 

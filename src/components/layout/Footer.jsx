@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const socialLinks = [
   {
     platform: 'Instagram',
-    href: 'https://www.instagram.com/dgabroadservices?igsh=MXd1Mm1sazE4cGF2eg==',
+    href: 'https://www.instagram.com/dharmagita_german_language?igsh=MXd1Mm1sazE4cGF2eg==',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
         <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" strokeWidth="2"/>

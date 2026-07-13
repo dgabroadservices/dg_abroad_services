@@ -84,7 +84,7 @@ function Footer() {
           <ul className="space-y-2 text-sm text-gray-400">
             {[
               'German Language Programs',
-              'Germany Education Patheays',
+              'Germany Education Pathways',
               'Student Support Services',
               // 'Visa Assistance',
               'Career Guidance & Counseling', 

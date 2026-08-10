@@ -6,7 +6,7 @@ import VisionMission from '../components/home/VisionMission'
 import ServicesSection from '../components/home/ServicesSection'
 import ProcessFlow from '../components/home/ProcessFlow'
 import GermanyOpportunities from '../components/home/GermanyOpportunities'
-// import Testimonials from '../components/home/Testimonials'
+import Testimonials from '../components/home/Testimonials'
 import CTASection from '../components/home/CTASection'
 import ContactPreview from '../components/home/ContactPreview'
 
@@ -19,9 +19,9 @@ function Home() {
         <AboutSection />
         <VisionMission />
         <ServicesSection />
+        <Testimonials />
         <ProcessFlow />
         <GermanyOpportunities />
-        {/* <Testimonials /> */}
         <CTASection />
         <ContactPreview />
       </main>
